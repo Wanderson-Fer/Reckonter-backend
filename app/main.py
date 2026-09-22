@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
-from app.db.base import get_db
-from app.schemas.product import ProductCreate, ProductResponse
+from db.base import get_db
+from schemas.product import ProductCreate, ProductResponse
 
 # 10
 

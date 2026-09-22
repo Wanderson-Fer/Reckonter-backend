@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import Optional
 
-from app.schemas.inventory import InventoryCreate, InventoryResponse
+from schemas.inventory import InventoryCreate, InventoryResponse
 
 
 class ProductCreate(BaseModel):
